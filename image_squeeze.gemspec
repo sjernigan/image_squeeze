@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "image_squeeze/version"
+require "lib/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rn_image_squeeze"
+  s.name        = "image_squeeze"
   s.version     = ImageSqueeze::VERSION
   s.authors     = ["Andrew Grim"]
   s.email       = ["stopdropandrew@gmail.com"]
