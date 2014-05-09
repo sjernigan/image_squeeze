@@ -103,6 +103,10 @@ class ImageSqueeze
     output_filename = filename
     output_filename = finalize_result(result) if result
   end
+
+  def discard_result(result)
+    FileUtils.rm(result.output_filename) if result
+  end
   
   def finalize_result(result)
     filename = output_filename = result.filename
